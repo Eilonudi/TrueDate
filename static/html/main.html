@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="\static\css\Bootstrap\css\bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="\static\css\style.css">
+    <script src="\static\js\script.js"> </script>
+    <meta charset="UTF-8">
+    <title>Test Flask</title>
+</head>
+<body>
+
+    <div class="testCase">
+	This page is achived by html static routing.
+    </div>
+
+    <div class="testCss testCase">
+    If this text is blue, css is binded properly.
+    </div>
+
+    <div class="testCase">
+        <span class="glyphicon glyphicon-circle-arrow-right"></span>
+        If there are icons here, bootstrap is binded properly.
+        <span class="glyphicon glyphicon-circle-arrow-left"></span>
+    </div>
+
+    <div class="testCase">
+    <button onclick="testJS()"> If alert appears - Javascript is binded properly. </button>
+    </div>
+
+    <div class="testCase">
+        <a href="/testSimpleParam/Shahar"> Test simple parameter sending </a>
+    </div>
+
+    <div class="testCase">
+        <a href="/testIntParam/11"> Test integer parameter sending </a>
+    </div>
+
+    <div class="testCase">
+        <a href="/twoparams/Danny/16"> Test two parameter sending </a>
+    </div>
+
+</body>
+</html>
